@@ -63,7 +63,7 @@ public class BusinessOperations {
 			
 			if(file.exists()) {
 				if ( file.delete() ) {
-					System.out.println("Delected the file successfully!");
+					System.out.println("Deleted the file successfully!");
 				}
 			} else {
 				System.out.println("File was not deleted (File Not Found)");
